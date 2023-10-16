@@ -1,0 +1,96 @@
+﻿
+namespace TestFingerPrint
+{
+    partial class frmDBVerify
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.cboReaders = new System.Windows.Forms.ComboBox();
+            this.lblSelectReader = new System.Windows.Forms.Label();
+            this.lblPlaceFinger = new System.Windows.Forms.Label();
+            this.pbFingerprint = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFingerprint)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // cboReaders
+            // 
+            this.cboReaders.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cboReaders.Location = new System.Drawing.Point(71, 500);
+            this.cboReaders.Name = "cboReaders";
+            this.cboReaders.Size = new System.Drawing.Size(386, 33);
+            this.cboReaders.TabIndex = 21;
+            // 
+            // lblSelectReader
+            // 
+            this.lblSelectReader.Location = new System.Drawing.Point(71, 467);
+            this.lblSelectReader.Name = "lblSelectReader";
+            this.lblSelectReader.Size = new System.Drawing.Size(309, 41);
+            this.lblSelectReader.TabIndex = 20;
+            this.lblSelectReader.Text = "Select Reader:";
+            // 
+            // lblPlaceFinger
+            // 
+            this.lblPlaceFinger.Location = new System.Drawing.Point(71, 418);
+            this.lblPlaceFinger.Name = "lblPlaceFinger";
+            this.lblPlaceFinger.Size = new System.Drawing.Size(360, 58);
+            this.lblPlaceFinger.TabIndex = 18;
+            this.lblPlaceFinger.Text = "Place a finger on the reader";
+            // 
+            // pbFingerprint
+            // 
+            this.pbFingerprint.Location = new System.Drawing.Point(71, 36);
+            this.pbFingerprint.Name = "pbFingerprint";
+            this.pbFingerprint.Size = new System.Drawing.Size(386, 360);
+            this.pbFingerprint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbFingerprint.TabIndex = 19;
+            this.pbFingerprint.TabStop = false;
+            // 
+            // frmDBVerify
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(512, 635);
+            this.Controls.Add(this.cboReaders);
+            this.Controls.Add(this.lblSelectReader);
+            this.Controls.Add(this.lblPlaceFinger);
+            this.Controls.Add(this.pbFingerprint);
+            this.Name = "frmDBVerify";
+            this.Text = "frmDBVerify";
+            this.Load += new System.EventHandler(this.frmDBVerify_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbFingerprint)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        internal System.Windows.Forms.ComboBox cboReaders;
+        internal System.Windows.Forms.Label lblSelectReader;
+        internal System.Windows.Forms.Label lblPlaceFinger;
+        internal System.Windows.Forms.PictureBox pbFingerprint;
+    }
+}

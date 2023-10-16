@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Capabilities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Capture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Enrollment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnrollmentControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDBEnrollment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDBVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Identification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IdentificationControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReaderSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Stream.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Verification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
